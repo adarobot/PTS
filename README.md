@@ -22,9 +22,19 @@ The phosphoenolpyruvate (PEP) :carbohydrate phosphotransferase system (PTS) is m
 1.4 Optional: Download processed_out outputs to your local computer if you run genome mining on a server. 
   
 **Step 2 Data processing using R scripts**
+  
   2.1 Download this R folder and set your R working directory to this folder. 
   
   2.2 Transfer hmm outputs that are postfixed with processed_out to the folder, tbl_processed.
   
+  2.3 Download the list of genomes anlayzed by step 1 from the aforementioned folder, in_files. There are two files including assembly_summary_bacteria.txt and assembly_summary_archaea.txt. Then, move these files to the folder, genome_list. 
+  
+  2.4 Run the R script, hmm_search_data_matrix.R. It will collect the taxonomic information for all genomes by using taxize, then save it to the folder, taxonomy. In the end, it generate a single output file containing the number of each hmm per genome, genome ID, and  corresponding taxnomic information.
+  
+**Step 3 Data visualization and statistics.
+   
+   3.1 Use iTOL (https://itol.embl.de/) to make the phylogenetic tree. The abundance of PTS components are incorporated into different tracks.
+   
+   3.2 The integrated visualization of a heatmap showing averaged counts of each hmm profiles in genomes of all Classes, and their phylogeny displayed by cladogram, is plotted by complex heatmap.
   
 
