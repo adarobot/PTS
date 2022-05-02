@@ -1,0 +1,1195 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.1 (Jul 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ./hmm_files/PTS_EIIA_1.hmm
+# target sequence database:        ./in_files/indexed_merged_protein.faa
+# per-seq hits tabular output:     ./hmm_out/tbl_PTS_EIIA_1.hmm.out
+# max ASCII text line length:      300
+# sequence reporting threshold:    E-value <= 0.01
+# number of worker threads:        8
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       PTS_EIIA_1  [M=127]
+Accession:   PF00358.20
+Description: phosphoenolpyruvate-dependent sugar phosphotransferase system, EIIA 1
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+    1.8e-08   40.0   3.8       0.97   15.0   0.1    5.3  5  AIY89797.1    methylmalonyl-CoA decarboxylase, subunit gamma [Geoglobus acetivorans] GCA_000789255.1_ASM78925v1_protein.faa
+    6.7e-06   31.7   9.7        3.3   13.3   0.1    5.3  4  AKG91128.1    Pyruvate carboxylase [Geoglobus ahangari] GCA_001006045.1_ASM100604v1_protein.faa
+    7.4e-06   31.5   3.0        5.8   12.5   0.1    4.6  5  AEA47675.1    biotin/lipoyl attachment domain-containing protein [Archaeoglobus veneficus SNP6] GCA_000194625.1_ASM19462v1_protein.faa
+    0.00019   27.0   3.3      0.015   20.9   3.3    3.1  1  AGT34735.1    hypothetical protein N186_01700 [Thermofilum adornatum] GCA_000446015.1_ASM44601v1_protein.faa
+    0.00019   27.0   3.3      0.015   20.9   3.3    3.1  1  AJB42470.1    Oxaloacetate decarboxylase alpha chain [Thermofilum adornatus 1505] GCA_000813245.1_ASM81324v1_protein.faa
+     0.0008   24.9   0.2          2   14.0   0.1    2.4  2  AMQ18950.1    acetyl-CoA carboxylase biotin carboxyl carrier protein subunit [Thermococcus peptonophilus] GCA_001592435.1_ASM159243v1_protein.faa
+    0.00086   24.8   1.3       0.43   16.1   0.8    3.0  2  CAB49799.1    mmdC methylmalonyl-coA decarboxylase gamma chain [Pyrococcus abyssi GE5] GCA_000195935.2_ASM19593v2_protein.faa
+      0.001   24.6   0.7       0.89   15.1   0.1    2.1  2  BDB99101.1    hypothetical protein SACC_21180 [Saccharolobus caldissimus] GCA_020886315.1_ASM2088631v1_protein.faa
+     0.0013   24.3   0.3        3.9   13.0   0.1    2.6  2  BAD85813.1    methylmalonyl-CoA decarboxylase, gamma subunit [Thermococcus kodakarensis KOD1] GCA_000009965.1_ASM996v1_protein.faa
+     0.0015   24.1   0.1        8.2   12.0   0.0    2.8  2  ASJ02189.1    acetyl-CoA carboxylase biotin carboxyl carrier protein subunit [Thermococcus profundus] GCA_002214585.1_ASM221458v1_protein.faa
+     0.0015   24.0   0.6        2.9   13.5   0.1    2.7  1  AIF69987.1    acetyl-CoA carboxylase [Palaeococcus pacificus DY20341] GCA_000725425.1_ASM72542v1_protein.faa
+     0.0023   23.5   0.1        1.2   14.6   0.1    2.8  1  ASJ09886.1    acetyl-CoA carboxylase biotin carboxyl carrier protein subunit [Thermococcus sp. P6] GCA_002214525.1_ASM221452v1_protein.faa
+     0.0025   23.3   2.5       0.49   15.9   0.8    3.0  2  ADC65978.1    biotin/lipoyl attachment domain-containing protein [Ferroglobus placidus DSM 10642] GCA_000025505.1_ASM2550v1_protein.faa
+     0.0028   23.2   0.3      0.081   18.5   0.1    2.2  3  BCU67115.1    hypothetical protein HS7_05520 [Sulfolobales archaeon HS-7] GCA_019704295.1_ASM1970429v1_protein.faa
+     0.0034   22.9   0.1        8.7   11.9   0.0    2.5  2  ASJ00073.1    acetyl-CoA carboxylase biotin carboxyl carrier protein subunit [Thermococcus gorgonarius] GCA_002214385.1_ASM221438v1_protein.faa
+     0.0037   22.8   0.3         11   11.6   0.0    2.0  2  QGA55239.1    biotin/lipoyl-binding protein [Sulfolobus sp. E5-1-F] GCA_009601705.1_ASM960170v1_protein.faa
+     0.0037   22.8   0.3         11   11.6   0.0    2.0  2  QGA68028.1    biotin/lipoyl-binding protein [Sulfolobus sp. E11-6] GCA_009602405.1_ASM960240v1_protein.faa
+     0.0038   22.7   0.1        3.3   13.3   0.0    2.5  3  ACJ15523.1    methylmalonyl-CoA decarboxylase, gamma subunit [Thermococcus onnurineus NA1] GCA_000018365.1_ASM1836v1_protein.faa
+     0.0041   22.7   0.3        2.8   13.5   0.0    2.4  2  ANF22795.1    acetyl-CoA carboxylase biotin carboxyl carrier protein subunit [Thermococcus piezophilus] GCA_001647085.1_ASM164708v1_protein.faa
+     0.0043   22.6   0.1        7.6   12.1   0.0    2.5  2  ALM74085.1    Propionyl-CoA decarboxylase subunit gamma [Thermococcus barophilus] GCA_001433455.1_ASM143345v1_protein.faa
+     0.0044   22.6   0.4        7.6   12.1   0.0    2.9  3  AEC52773.1    putative acetyl-CoA carboxylase biotin carboxyl carrier protein subunit [Pyrococcus sp. NA2] GCA_000211475.1_ASM21147v1_protein.faa
+     0.0047   22.5   0.4         11   11.6   0.0    2.7  2  EEB73745.1    methylmalonyl-CoA decarboxylase gamma chain [Thermococcus sp. AM4] GCA_000151205.2_ASM15120v2_protein.faa
+      0.005   22.4   0.3        5.6   12.5   0.0    2.6  2  AEA12510.1    Pyruvate/2-oxoglutarate dehydrogenase complex, dihydrolipoamide acyltransferase (E2) component [Thermoproteus uzoniensis 768-20] GCA_000193375.1_ASM19337v1_protein.faa
+      0.005   22.4   0.1        7.9   12.0   0.0    2.5  2  ALM73984.1    Methylmalonyl-CoA decarboxylase gamma subunit [Thermococcus barophilus] GCA_001433455.1_ASM143345v1_protein.faa
+      0.005   22.4   0.1         11   11.6   0.0    2.5  2  AHL23679.1    Biotin carboxyl carrier protein [Thermococcus nautili] GCA_000585495.1_ASM58549v1_protein.faa
+     0.0059   22.1   0.4        8.9   11.9   0.0    2.7  3  ACS34530.1    Methylmalonyl-CoA decarboxylase gamma chain (MmdC) [Thermococcus gammatolerans EJ3] GCA_000022365.1_ASM2236v1_protein.faa
+      0.006   22.1   0.2       0.37   16.3   0.1    2.4  2  AAB89171.1    oxaloacetate decarboxylase, biotin carboxyl carrier subunit, putative [Archaeoglobus fulgidus DSM 4304] GCA_000008665.1_ASM866v1_protein.faa
+      0.006   22.1   0.2       0.37   16.3   0.1    2.4  2  AIG99074.1    Biotin carboxyl carrier protein [Archaeoglobus fulgidus DSM 8774] GCA_000734035.1_ASM73403v1_protein.faa
+     0.0062   22.1   0.3        8.5   11.9   0.2    2.7  2  AFK22359.1    putative acetyl-CoA carboxylase biotin carboxyl carrier protein subunit [Pyrococcus sp. ST04] GCA_000263735.1_ASM26373v1_protein.faa
+     0.0066   22.0   0.2        8.3   12.0   0.1    2.5  2  AJC71305.1    acetyl-CoA carboxylase [Thermococcus guaymasensis DSM 11113] GCA_000816105.1_ASM81610v1_protein.faa
+     0.0067   22.0   1.7        6.1   12.4   0.3    4.0  1  BAK54343.1    acetyl-CoA/propionyl-CoA carboxylase beta subunit [Sulfurisphaera tokodaii str. 7] GCA_000011205.1_ASM1120v1_protein.faa
+      0.007   21.9   1.1         10   11.7   0.0    3.7  4  QIW23457.1    acetyl-CoA carboxylase biotin carboxyl carrier protein subunit [Sulfolobus sp. S-194] GCA_012222305.1_ASM1222230v1_protein.faa
+     0.0072   21.9   0.3        4.2   12.9   0.0    2.4  2  CAD5243539.1  Glutaconyl-CoA decarboxylase subunit gamma [Thermococcus camini] GCA_904067545.1_T_caminus_IRI35c_protein.faa
+     0.0073   21.9   0.4         23   10.5   0.1    2.0  2  QXJ27470.1    Lipoate carrier protein [Saccharolobus shibatae B12] GCA_019175345.1_ASM1917534v1_protein.faa
+     0.0075   21.8   1.0        7.2   12.2   0.0    3.5  4  AHC50763.1    biotin carboxyl carrier protein of propionyl-CoA carboxylase subunit beta [Sulfolobus acidocaldarius SUSAZ] GCA_000508305.1_ASM50830v1_protein.faa
+     0.0075   21.8   0.7       0.44   16.1   0.7    3.0  1  ABL77565.1    biotin/lipoyl attachment domain-containing protein [Thermofilum pendens Hrk 5] GCA_000015225.1_ASM1522v1_protein.faa
+     0.0077   21.8   0.3        3.8   13.1   0.0    2.4  2  AFL94862.1    putative methylmalonyl-CoA decarboxylase subunit gamma [Thermococcus cleftensis] GCA_000265525.1_ASM26552v1_protein.faa
+     0.0082   21.7   1.3        8.1   12.0   0.0    3.6  4  AAY79677.1    conserved protein [Sulfolobus acidocaldarius DSM 639] GCA_000012285.1_ASM1228v1_protein.faa
+     0.0082   21.7   1.3        8.1   12.0   0.0    3.6  4  AGE70235.1    hypothetical protein SacN8_01270 [Sulfolobus acidocaldarius N8] GCA_000340315.1_ASM34031v1_protein.faa
+     0.0082   21.7   1.3        8.1   12.0   0.0    3.6  4  AGE72510.1    hypothetical protein SacRon12I_01270 [Sulfolobus acidocaldarius Ron12/I] GCA_000338775.1_ASM33877v1_protein.faa
+     0.0083   21.7   0.2        6.2   12.4   0.0    2.5  2  ASJ14654.1    acetyl-CoA carboxylase biotin carboxyl carrier protein subunit [Thermococcus radiotolerans] GCA_002214565.1_ASM221456v1_protein.faa
+     0.0084   21.7   0.0         12   11.5   0.0    3.1  3  AZH27003.1    phosphatidylserine decarboxylase [Haloplanus aerogenes] GCA_003856835.1_ASM385683v1_protein.faa
+     0.0085   21.6   0.8        1.3   14.5   0.2    2.1  2  AFH42955.1    Carboxyl transferase, biotin-binding subunit [Fervidicoccus fontis Kam940] GCA_000258425.1_ASM25842v1_protein.faa
+     0.0086   21.6   2.1        4.3   12.9   0.1    3.5  3  AEE94989.1    biotin carboxyl carrier protein of acetyl-CoA carboxylase [Acidianus hospitalis W1] GCA_000213215.1_ASM21321v1_protein.faa
+     0.0087   21.6   0.2        6.2   12.4   0.0    2.5  2  ASA76902.1    acetyl-CoA carboxylase biotin carboxyl carrier protein subunit [Thermococcus sp. 5-4] GCA_002197185.1_ASM219718v1_protein.faa
+     0.0088   21.6   0.1        4.3   12.9   0.0    2.5  2  ASI98250.1    acetyl-CoA carboxylase biotin carboxyl carrier protein subunit [Thermococcus celer Vu 13 = JCM 8558] GCA_002214365.1_ASM221436v1_protein.faa
+
+
+Domain annotation for each sequence (and alignments):
+>> AIY89797.1  methylmalonyl-CoA decarboxylase, subunit gamma [Geoglobus acetivorans] GCA_000789255.1_ASM78925v1_protein.faa
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.0   0.1     4e-05      0.97      77     112 ..      66     101 ..      60     105 .. 0.87
+   2 ?    3.9   0.0      0.11   2.6e+03      35      49 ..      97     110 ..      92     113 .. 0.79
+   3 !    7.5   0.0    0.0081     2e+02      85     107 ..     111     133 ..     105     141 .. 0.79
+   4 !    7.8   0.0    0.0065   1.6e+02      77     113 ..     154     190 ..     150     194 .. 0.86
+   5 ?    5.6   0.0     0.033   7.9e+02      81     102 ..     195     216 ..     192     218 .] 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 15.0 bits;  conditional E-value: 4e-05
+                 TTTTTTTEEES----SEE-SEEEEEEE-HHHHGGGS CS
+  PTS_EIIA_1  77 vklkgegFellvkegdkVkagdklvevdleaikkag 112
+                  ++ g++ ++lvk+gd+Vk+g++l+ ++  +++++ 
+  AIY89797.1  66 AEMSGTVVRILVKNGDEVKKGQPLLILEAMKMENEI 101
+                 57899********************99998888765 PP
+
+  == domain 2  score: 3.9 bits;  conditional E-value: 0.11
+                 E-SSEEEES--EEEE CS
+  PTS_EIIA_1  35 psegkvvapvdGkve 49 
+                   e+++v+p+dG+v 
+  AIY89797.1  97 M-ENEIVSPFDGTVA 110
+                 4.679********97 PP
+
+  == domain 3  score: 7.5 bits;  conditional E-value: 0.0081
+                 EES----SEE-SEEEEEEE-HHH CS
+  PTS_EIIA_1  85 ellvkegdkVkagdklvevdlea 107
+                  + v+eg kV+agd lv++d   
+  AIY89797.1 111 GVEVNEGAKVQAGDVLVRIDTGS 133
+                 5789***************9865 PP
+
+  == domain 4  score: 7.8 bits;  conditional E-value: 0.0065
+                 TTTTTTTEEES----SEE-SEEEEEEE-HHHHGGGSS CS
+  PTS_EIIA_1  77 vklkgegFellvkegdkVkagdklvevdleaikkagy 113
+                  ++ g+  ++l +eg++V++g++++ ++  +++++ +
+  AIY89797.1 154 AEMSGTIVRILRNEGQEVRKGEPVLVLEAMKMENEIV 190
+                 578999999****************999988887755 PP
+
+  == domain 5  score: 5.6 bits;  conditional E-value: 0.033
+                 TTTEEES----SEE-SEEEEEE CS
+  PTS_EIIA_1  81 gegFellvkegdkVkagdklve 102
+                 g+  ++lvkegd+V+ag++l+ 
+  AIY89797.1 195 GRLSKILVKEGDRVQAGSELFV 216
+                 5566899***********9975 PP
+
+>> AKG91128.1  Pyruvate carboxylase [Geoglobus ahangari] GCA_001006045.1_ASM100604v1_protein.faa
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.3   0.1   0.00014       3.3      77     115 ..      67     105 ..      62     110 .. 0.88
+   2 ?    5.6   0.0     0.033   7.9e+02      86     104 ..     113     131 ..     108     134 .. 0.87
+   3 ?    6.0   0.3     0.024   5.7e+02      78     113 ..     155     190 ..     148     197 .. 0.75
+   4 !    8.2   0.1     0.005   1.2e+02      83     103 ..     197     217 ..     193     218 .] 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 13.3 bits;  conditional E-value: 0.00014
+                 TTTTTTTEEES----SEE-SEEEEEEE-HHHHGGGSS-- CS
+  PTS_EIIA_1  77 vklkgegFellvkegdkVkagdklvevdleaikkagyst 115
+                  ++ g + ++lvkeg+ Vk+g++++ ++  +++++ +s+
+  AKG91128.1  67 AEMSGSVVRILVKEGEAVKKGQPVLILEAMKMENEVVSP 105
+                 5789999******************99999999887765 PP
+
+  == domain 2  score: 5.6 bits;  conditional E-value: 0.033
+                 ES----SEE-SEEEEEEE- CS
+  PTS_EIIA_1  86 llvkegdkVkagdklvevd 104
+                 + v+egdkV+agd l+++ 
+  AKG91128.1 113 IEVREGDKVQAGDVLIRIR 131
+                 5799***********9875 PP
+
+  == domain 3  score: 6.0 bits;  conditional E-value: 0.024
+                 TTTTTTEEES----SEE-SEEEEEEE-HHHHGGGSS CS
+  PTS_EIIA_1  78 klkgegFellvkegdkVkagdklvevdleaikkagy 113
+                 ++ g+  ++  keg+ Vk g+ +v ++  +++++  
+  AKG91128.1 155 EMAGTIVRIVKKEGEAVKSGEAVVILEAMKMENEIS 190
+                 677888888889999999999988888877776654 PP
+
+  == domain 4  score: 8.2 bits;  conditional E-value: 0.005
+                 TEEES----SEE-SEEEEEEE CS
+  PTS_EIIA_1  83 gFellvkegdkVkagdklvev 103
+                 + +++vkegdkV+agd l++v
+  AKG91128.1 197 VSKVYVKEGDKVQAGDVLFSV 217
+                 56899*************987 PP
+
+>> AEA47675.1  biotin/lipoyl attachment domain-containing protein [Archaeoglobus veneficus SNP6] GCA_000194625.1_ASM19462v1_protein.faa
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.1   0.0       7.8   1.9e+05      77      96 ..      26      45 ..      25      51 .. 0.84
+   2 !   12.5   0.1   0.00024       5.8      78     112 ..      54      88 ..      49      98 .. 0.85
+   3 !    9.1   0.0    0.0026        63      85     111 ..      98     124 ..      93     134 .. 0.79
+   4 ?    5.5   0.1     0.036   8.6e+02      76     109 ..     131     164 ..     129     175 .. 0.88
+   5 ?    2.0   0.0      0.42     1e+04      85     103 ..     177     195 ..     167     198 .] 0.77
+
+  Alignments for each domain:
+  == domain 1  score: -2.1 bits;  conditional E-value: 7.8
+                TTTTTTTEEES----SEE-S CS
+  PTS_EIIA_1 77 vklkgegFellvkegdkVka 96
+                v+++g+  +l+++e ++V+a
+  AEA47675.1 26 VSVNGKRATLIIEETQEVEA 45
+                77899999999999999985 PP
+
+  == domain 2  score: 12.5 bits;  conditional E-value: 0.00024
+                 TTTTTTEEES----SEE-SEEEEEEE-HHHHGGGS CS
+  PTS_EIIA_1  78 klkgegFellvkegdkVkagdklvevdleaikkag 112
+                 ++ g+  ++ v+eg+kV++g++l+ ++  +++++ 
+  AEA47675.1  54 EMAGTIVRIVVEEGEKVEKGQPLLVLEAMKMESEI 88 
+                 7899999*****************99998888765 PP
+
+  == domain 3  score: 9.1 bits;  conditional E-value: 0.0026
+                 EES----SEE-SEEEEEEE-HHHHGGG CS
+  PTS_EIIA_1  85 ellvkegdkVkagdklvevdleaikka 111
+                 ++lvkeg+kV+ag++l+ +d  +  ++
+  AEA47675.1  98 KILVKEGEKVNAGTPLILLDSGEAGES 124
+                 789**************9998766555 PP
+
+  == domain 4  score: 5.5 bits;  conditional E-value: 0.036
+                 TTTTTTTTEEES----SEE-SEEEEEEE-HHHHG CS
+  PTS_EIIA_1  76 tvklkgegFellvkegdkVkagdklvevdleaik 109
+                 tv + g + ++l + g++Vk+g+ ++ ++  +++
+  AEA47675.1 131 TVAMAGIVTKVLKNPGEEVKEGEAILILEAMKME 164
+                 899999999***************9988776665 PP
+
+  == domain 5  score: 2.0 bits;  conditional E-value: 0.42
+                 EES----SEE-SEEEEEEE CS
+  PTS_EIIA_1  85 ellvkegdkVkagdklvev 103
+                 +++v+eg+kV+ gd +++v
+  AEA47675.1 177 SVNVTEGSKVSPGDVVARV 195
+                 6789999999999999887 PP
+
+>> AGT34735.1  hypothetical protein N186_01700 [Thermofilum adornatum] GCA_000446015.1_ASM44601v1_protein.faa
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.9   3.3   6.1e-07     0.015      34     102 ..      30     101 ..      16     103 .] 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 20.9 bits;  conditional E-value: 6.1e-07
+                 EE-.SSEEEES--EEEEE--SSSSEEEEESS.....SS-EEEEE-SSSTTTTTTTTEEES----SEE-SEEEEEE CS
+  PTS_EIIA_1  34 eps.egkvvapvdGkvekvfptkHaigiktd.....dgvevlihiGidtvklkgegFellvkegdkVkagdklve 102
+                 +p+ +++++ap++Gk+++++ ++   + k d     + ++ li +   + +l+g++ e++vkegd Vk+g+++++
+  AGT34735.1  30 QPTaKDTIIAPITGKINQIVVSQGQKVSKGDviakiEAMKTLIEV---KSNLEGTVAEIYVKEGDVVKQGQPILK 101
+                 5665789***********997776666555522001445555555...7899*********************98 PP
+
+>> AJB42470.1  Oxaloacetate decarboxylase alpha chain [Thermofilum adornatus 1505] GCA_000813245.1_ASM81324v1_protein.faa
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.9   3.3   6.1e-07     0.015      34     102 ..      30     101 ..      16     103 .] 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 20.9 bits;  conditional E-value: 6.1e-07
+                 EE-.SSEEEES--EEEEE--SSSSEEEEESS.....SS-EEEEE-SSSTTTTTTTTEEES----SEE-SEEEEEE CS
+  PTS_EIIA_1  34 eps.egkvvapvdGkvekvfptkHaigiktd.....dgvevlihiGidtvklkgegFellvkegdkVkagdklve 102
+                 +p+ +++++ap++Gk+++++ ++   + k d     + ++ li +   + +l+g++ e++vkegd Vk+g+++++
+  AJB42470.1  30 QPTaKDTIIAPITGKINQIVVSQGQKVSKGDviakiEAMKTLIEV---KSNLEGTVAEIYVKEGDVVKQGQPILK 101
+                 5665789***********997776666555522001445555555...7899*********************98 PP
+
+>> AMQ18950.1  acetyl-CoA carboxylase biotin carboxyl carrier protein subunit [Thermococcus peptonophilus] GCA_001592435.1_ASM159243v1_protein.faa
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.0   0.1   8.3e-05         2      73     110 ..      89     126 ..      88     132 .. 0.87
+   2 !    8.7   0.0    0.0035        84      85     103 ..     138     156 ..     131     157 .] 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 14.0 bits;  conditional E-value: 8.3e-05
+                 SSSTTTTTTTTEEES----SEE-SEEEEEEE-HHHHGG CS
+  PTS_EIIA_1  73 GidtvklkgegFellvkegdkVkagdklvevdleaikk 110
+                 G+ t  + g+  ++lvkegd+Vk+g+ l+ ++  ++++
+  AMQ18950.1  89 GVVTAPMPGKILKILVKEGDQVKTGQGLLVLEAMKMEN 126
+                 66688899********************9988887776 PP
+
+  == domain 2  score: 8.7 bits;  conditional E-value: 0.0035
+                 EES----SEE-SEEEEEEE CS
+  PTS_EIIA_1  85 ellvkegdkVkagdklvev 103
+                 ++lvkegd+V++gd+l+e+
+  AMQ18950.1 138 KILVKEGDTVNTGDPLIEI 156
+                 789*************986 PP
+
+>> CAB49799.1  mmdC methylmalonyl-coA decarboxylase gamma chain [Pyrococcus abyssi GE5] GCA_000195935.2_ASM19593v2_protein.faa
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.1   0.8   1.8e-05      0.43       5     110 ..       5     114 ..       1     119 [. 0.79
+   2 ?    5.8   0.0     0.027   6.5e+02      85     102 ..     126     143 ..     119     145 .] 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 16.1 bits;  conditional E-value: 1.8e-05
+                 ---SEEE..EEGGGSSSHHHHT-TTSEEEEEEE-SSEEEES--EEEEE--SSSS..EEEEESSSS-EEEEE-SSSTTTTTTTTEEES----SEE-SEEEEEEE-HHHHGG CS
+  PTS_EIIA_1   5 spvsGev..vpleevpDevfaekmlGdGvaiepsegkvvapvdGkvekvfptkH..aigiktddgvevlihiGidtvklkgegFellvkegdkVkagdklvevdleaikk 110
+                  +v+G+   v++eev    f   + G+ + +e + g  vapv+ +v + +pt       +++ +  +v     + t  + g++ ++lv+eg++Vk g+ l+ ++  ++++
+  CAB49799.1   5 VVVNGKEyeVDVEEVMPGKFRVTLEGKTYEVEANLGIQVAPVQTQVATPAPTPTptPTPVQAPTTPQVQASENVVTAPMPGKVLKILVQEGQQVKLGQGLLILEAMKMEN 114
+                 5666664226778999999999999999999999999999***999998866550055667777778888888889999********************99888877765 PP
+
+  == domain 2  score: 5.8 bits;  conditional E-value: 0.027
+                 EES----SEE-SEEEEEE CS
+  PTS_EIIA_1  85 ellvkegdkVkagdklve 102
+                 ++lvkegd V +g++l+e
+  CAB49799.1 126 RILVKEGDAVDTGTPLIE 143
+                 689*************98 PP
+
+>> BDB99101.1  hypothetical protein SACC_21180 [Saccharolobus caldissimus] GCA_020886315.1_ASM2088631v1_protein.faa
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.1   0.1   3.7e-05      0.89      81     108 ..      20      47 ..      16      54 .. 0.89
+   2 !    8.6   0.1    0.0038        91      78     103 ..      54      79 ..      47      81 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 15.1 bits;  conditional E-value: 3.7e-05
+                 TTTEEES----SEE-SEEEEEEE-HHHH CS
+  PTS_EIIA_1  81 gegFellvkegdkVkagdklvevdleai 108
+                 ge  +++vkegd+V+ gd+++ev++e++
+  BDB99101.1  20 GEIVSVYVKEGDSVNVGDLIAEVEIEKV 47 
+                 78899********************998 PP
+
+  == domain 2  score: 8.6 bits;  conditional E-value: 0.0038
+                 TTTTTTEEES----SEE-SEEEEEEE CS
+  PTS_EIIA_1  78 klkgegFellvkegdkVkagdklvev 103
+                 + kg+  ++lvkegdkV  g+ ++ +
+  BDB99101.1  54 QFKGKIVKILVKEGDKVGPGSVIAVM 79 
+                 679****************9998765 PP
+
+>> BAD85813.1  methylmalonyl-CoA decarboxylase, gamma subunit [Thermococcus kodakarensis KOD1] GCA_000009965.1_ASM996v1_protein.faa
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.0   0.1   0.00016       3.9      73     111 ..      89     127 ..      88     136 .. 0.87
+   2 !    8.9   0.0    0.0031        73      85     103 ..     138     156 ..     131     157 .] 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 13.0 bits;  conditional E-value: 0.00016
+                 SSSTTTTTTTTEEES----SEE-SEEEEEEE-HHHHGGG CS
+  PTS_EIIA_1  73 GidtvklkgegFellvkegdkVkagdklvevdleaikka 111
+                 G+ t  + g+  ++lvkeg++Vk+g+ l+ ++  +++++
+  BAD85813.1  89 GVVTAPMPGKILKILVKEGEQVKTGQGLLILEAMKMENE 127
+                 66688899********************99888887765 PP
+
+  == domain 2  score: 8.9 bits;  conditional E-value: 0.0031
+                 EES----SEE-SEEEEEEE CS
+  PTS_EIIA_1  85 ellvkegdkVkagdklvev 103
+                 ++lvkegd+V++gd+l+e+
+  BAD85813.1 138 KILVKEGDTVNTGDPLIEI 156
+                 789*************986 PP
+
+>> ASJ02189.1  acetyl-CoA carboxylase biotin carboxyl carrier protein subunit [Thermococcus profundus] GCA_002214585.1_ASM221458v1_protein.faa
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.0   0.0   0.00034       8.2      73     110 ..      93     130 ..      92     136 .. 0.87
+   2 !    9.1   0.0    0.0027        65      84     103 ..     141     160 ..     136     161 .] 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 12.0 bits;  conditional E-value: 0.00034
+                 SSSTTTTTTTTEEES----SEE-SEEEEEEE-HHHHGG CS
+  PTS_EIIA_1  73 GidtvklkgegFellvkegdkVkagdklvevdleaikk 110
+                 G+ t  + g+  ++lvkeg++Vk+g+ l+ ++  ++++
+  ASJ02189.1  93 GVVTAPMPGKILRILVKEGEQVKTGQGLLILEAMKMEN 130
+                 56688899********************9988877766 PP
+
+  == domain 2  score: 9.1 bits;  conditional E-value: 0.0027
+                 EEES----SEE-SEEEEEEE CS
+  PTS_EIIA_1  84 FellvkegdkVkagdklvev 103
+                  ++lvkegd+V++gd+l+e+
+  ASJ02189.1 141 KKILVKEGDTVNTGDPLIEI 160
+                 5799*************986 PP
+
+>> AIF69987.1  acetyl-CoA carboxylase [Palaeococcus pacificus DY20341] GCA_000725425.1_ASM72542v1_protein.faa
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.5   0.1   0.00012       2.9      76     116 ..      88     128 ..      80     134 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 13.5 bits;  conditional E-value: 0.00012
+                 TTTTTTTTEEES----SEE-SEEEEEEE-HHHHGGGSS--- CS
+  PTS_EIIA_1  76 tvklkgegFellvkegdkVkagdklvevdleaikkagystt 116
+                 t  + g+  ++lvkegd+Vk+g+ l+ ++  +++++  s++
+  AIF69987.1  88 TAPMPGKILKVLVKEGDSVKTGQGLLILEAMKMENEIPSPV 128
+                 5567899*******************999999988876665 PP
+
+>> ASJ09886.1  acetyl-CoA carboxylase biotin carboxyl carrier protein subunit [Thermococcus sp. P6] GCA_002214525.1_ASM221452v1_protein.faa
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.6   0.1   5.2e-05       1.2      37     102 ..      82     149 ..      55     151 .] 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 14.6 bits;  conditional E-value: 5.2e-05
+                 SSEEEES--EEEEE--SSSSEEEEESSSS-EEEEE-SSSTTTT...TTTTEEES----SEE-SEEEEEE CS
+  PTS_EIIA_1  37 egkvvapvdGkvekvfptkHaigiktddgvevlihiGidtvkl...kgegFellvkegdkVkagdklve 102
+                 eg v+ap+ Gk+  +   k    +kt +g+ vl  + ++       +g+  ++lvkegd+V++g++l+e
+  ASJ09886.1  82 EGVVTAPMPGKILRILV-KEGESVKTGQGLLVLEAMKMENEIPaprDGKIKRILVKEGDTVNTGQPLIE 149
+                 56788888888888875.556666666666666666555543366688888888999999999998887 PP
+
+>> ADC65978.1  biotin/lipoyl attachment domain-containing protein [Ferroglobus placidus DSM 10642] GCA_000025505.1_ASM2550v1_protein.faa
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.9   0.8   2.1e-05      0.49      77     118 ..      76     117 ..      14     121 .. 0.92
+   2 ?    6.7   0.0     0.015   3.6e+02      84     101 ..     120     137 ..     112     139 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 15.9 bits;  conditional E-value: 2.1e-05
+                 TTTTTTTEEES----SEE-SEEEEEEE-HHHHGGGSS---EE CS
+  PTS_EIIA_1  77 vklkgegFellvkegdkVkagdklvevdleaikkagystttp 118
+                  ++ g+  ++lvkegd+Vk g++++ ++  +++++  s+ + 
+  ADC65978.1  76 AEMSGTIVKVLVKEGDEVKSGQPVLILEAMKMENEVTSPFSG 117
+                 578999*********************999999998877665 PP
+
+  == domain 2  score: 6.7 bits;  conditional E-value: 0.015
+                 EEES----SEE-SEEEEE CS
+  PTS_EIIA_1  84 FellvkegdkVkagdklv 101
+                  e+ vkegd+V+ag++lv
+  ADC65978.1 120 KEVRVKEGDRVSAGQTLV 137
+                 5789************98 PP
+
+>> BCU67115.1  hypothetical protein HS7_05520 [Sulfolobales archaeon HS-7] GCA_019704295.1_ASM1970429v1_protein.faa
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.5   0.1   3.4e-06     0.081      80     107 ..      17      44 ..      13      53 .. 0.89
+   2 ?    2.2   0.0      0.36   8.7e+03      39      52 ..      48      61 ..      40      69 .. 0.75
+   3 ?    2.6   0.0      0.28   6.7e+03      85     101 ..      59      75 ..      52      78 .] 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 18.5 bits;  conditional E-value: 3.4e-06
+                 TTTTEEES----SEE-SEEEEEEE-HHH CS
+  PTS_EIIA_1  80 kgegFellvkegdkVkagdklvevdlea 107
+                  ge+ e+lvkeg++Vk+gd ++e+++e+
+  BCU67115.1  17 SGEVVEVLVKEGQRVKKGDVICEIEIEK 44 
+                 6999********************9986 PP
+
+  == domain 2  score: 2.2 bits;  conditional E-value: 0.36
+                EEEES--EEEEE-- CS
+  PTS_EIIA_1 39 kvvapvdGkvekvf 52
+                ++ +p+dG + kvf
+  BCU67115.1 48 QLESPIDGIIRKVF 61
+                67799999999998 PP
+
+  == domain 3  score: 2.6 bits;  conditional E-value: 0.28
+                 EES----SEE-SEEEEE CS
+  PTS_EIIA_1  85 ellvkegdkVkagdklv 101
+                 ++++k+gd+Vk +++l+
+  BCU67115.1  59 KVFIKSGDEVKPNTLLM 75 
+                 789999*****999998 PP
+
+>> ASJ00073.1  acetyl-CoA carboxylase biotin carboxyl carrier protein subunit [Thermococcus gorgonarius] GCA_002214385.1_ASM221438v1_protein.faa
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   11.9   0.0   0.00036       8.7      73     111 ..      84     122 ..      83     133 .. 0.86
+   2 !    8.9   0.0    0.0031        75      85     103 ..     133     151 ..     126     152 .] 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 11.9 bits;  conditional E-value: 0.00036
+                 SSSTTTTTTTTEEES----SEE-SEEEEEEE-HHHHGGG CS
+  PTS_EIIA_1  73 GidtvklkgegFellvkegdkVkagdklvevdleaikka 111
+                 G+ t  + g+  ++lvkeg++Vk g+ l+ ++  +++++
+  ASJ00073.1  84 GVVTAPMPGKILRILVKEGEQVKMGQGLLILEAMKMENE 122
+                 566888999*******************99888887765 PP
+
+  == domain 2  score: 8.9 bits;  conditional E-value: 0.0031
+                 EES----SEE-SEEEEEEE CS
+  PTS_EIIA_1  85 ellvkegdkVkagdklvev 103
+                 ++lvkegd+V++gd+l+e+
+  ASJ00073.1 133 KILVKEGDTVNTGDPLMEI 151
+                 789*************986 PP
+
+>> QGA55239.1  biotin/lipoyl-binding protein [Sulfolobus sp. E5-1-F] GCA_009601705.1_ASM960170v1_protein.faa
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   11.6   0.0   0.00046        11      81     107 ..      20      46 ..      16      55 .. 0.89
+   2 !   10.2   0.1    0.0012        29      78     101 ..      54      77 ..      47      81 .] 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 11.6 bits;  conditional E-value: 0.00046
+                 TTTEEES----SEE-SEEEEEEE-HHH CS
+  PTS_EIIA_1  81 gegFellvkegdkVkagdklvevdlea 107
+                 ge  +l++keg+++kagd ++ev++e+
+  QGA55239.1  20 GEIVSLYIKEGSEIKAGDVIAEVEIEK 46 
+                 7888999****************9986 PP
+
+  == domain 2  score: 10.2 bits;  conditional E-value: 0.0012
+                 TTTTTTEEES----SEE-SEEEEE CS
+  PTS_EIIA_1  78 klkgegFellvkegdkVkagdklv 101
+                 + +g++ ++lvkegdkV+ g+ ++
+  QGA55239.1  54 QYNGKVVKVLVKEGDKVSPGSVIA 77 
+                 679*****************9886 PP
+
+>> QGA68028.1  biotin/lipoyl-binding protein [Sulfolobus sp. E11-6] GCA_009602405.1_ASM960240v1_protein.faa
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   11.6   0.0   0.00046        11      81     107 ..      20      46 ..      16      55 .. 0.89
+   2 !   10.2   0.1    0.0012        29      78     101 ..      54      77 ..      47      81 .] 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 11.6 bits;  conditional E-value: 0.00046
+                 TTTEEES----SEE-SEEEEEEE-HHH CS
+  PTS_EIIA_1  81 gegFellvkegdkVkagdklvevdlea 107
+                 ge  +l++keg+++kagd ++ev++e+
+  QGA68028.1  20 GEIVSLYIKEGSEIKAGDVIAEVEIEK 46 
+                 7888999****************9986 PP
+
+  == domain 2  score: 10.2 bits;  conditional E-value: 0.0012
+                 TTTTTTEEES----SEE-SEEEEE CS
+  PTS_EIIA_1  78 klkgegFellvkegdkVkagdklv 101
+                 + +g++ ++lvkegdkV+ g+ ++
+  QGA68028.1  54 QYNGKVVKVLVKEGDKVSPGSVIA 77 
+                 679*****************9886 PP
+
+>> ACJ15523.1  methylmalonyl-CoA decarboxylase, gamma subunit [Thermococcus onnurineus NA1] GCA_000018365.1_ASM1836v1_protein.faa
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.3   0.0   0.00014       3.3      73     110 ..      86     123 ..      83     129 .. 0.87
+   2 ?    1.2   0.0      0.72   1.7e+04      37      51 ..     122     136 ..     118     139 .. 0.81
+   3 ?    7.0   0.0     0.012   2.9e+02      84     102 ..     134     152 ..     129     154 .] 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 13.3 bits;  conditional E-value: 0.00014
+                 SSSTTTTTTTTEEES----SEE-SEEEEEEE-HHHHGG CS
+  PTS_EIIA_1  73 GidtvklkgegFellvkegdkVkagdklvevdleaikk 110
+                 G+ t  + g+  ++lvkegd+Vk+g+ l+ ++  ++++
+  ACJ15523.1  86 GVVTAPMPGKILRILVKEGDQVKTGQGLLILEAMKMEN 123
+                 66788899********************9988877766 PP
+
+  == domain 2  score: 1.2 bits;  conditional E-value: 0.72
+                 SSEEEES--EEEEE- CS
+  PTS_EIIA_1  37 egkvvapvdGkvekv 51 
+                 e+++ ap dG+++k+
+  ACJ15523.1 122 ENEIPAPKDGTIKKI 136
+                 67999*******997 PP
+
+  == domain 3  score: 7.0 bits;  conditional E-value: 0.012
+                 EEES----SEE-SEEEEEE CS
+  PTS_EIIA_1  84 FellvkegdkVkagdklve 102
+                  ++l+keg++V +g++l+e
+  ACJ15523.1 134 KKILIKEGQTVDTGQPLIE 152
+                 57899************98 PP
+
+>> ANF22795.1  acetyl-CoA carboxylase biotin carboxyl carrier protein subunit [Thermococcus piezophilus] GCA_001647085.1_ASM164708v1_protein.faa
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.5   0.0   0.00012       2.8      73     111 ..      82     120 ..      81     129 .. 0.86
+   2 ?    7.1   0.1     0.011   2.6e+02      85     103 ..     131     149 ..     124     150 .] 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 13.5 bits;  conditional E-value: 0.00012
+                 SSSTTTTTTTTEEES----SEE-SEEEEEEE-HHHHGGG CS
+  PTS_EIIA_1  73 GidtvklkgegFellvkegdkVkagdklvevdleaikka 111
+                 G+ t  + g+  ++lvkegd+Vk+g+ l+ ++  +++++
+  ANF22795.1  82 GVVTAPMPGKIIRILVKEGDEVKTGQGLLILEAMKMENE 120
+                 56688899********************99998888876 PP
+
+  == domain 2  score: 7.1 bits;  conditional E-value: 0.011
+                 EES----SEE-SEEEEEEE CS
+  PTS_EIIA_1  85 ellvkegdkVkagdklvev 103
+                 ++lvkeg++V +g+ l+e+
+  ANF22795.1 131 KILVKEGQTVDTGQALIEI 149
+                 789*************986 PP
+
+>> ALM74085.1  Propionyl-CoA decarboxylase subunit gamma [Thermococcus barophilus] GCA_001433455.1_ASM143345v1_protein.faa
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.1   0.0   0.00032       7.6      76     111 ..      86     121 ..      80     131 .. 0.86
+   2 !    8.3   0.0    0.0047   1.1e+02      85     103 ..     132     150 ..     126     151 .] 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 12.1 bits;  conditional E-value: 0.00032
+                 TTTTTTTTEEES----SEE-SEEEEEEE-HHHHGGG CS
+  PTS_EIIA_1  76 tvklkgegFellvkegdkVkagdklvevdleaikka 111
+                 t  + g++ ++lv+egd+Vkag+ l+ ++  +++++
+  ALM74085.1  86 TAPMPGKVLRILVREGDEVKAGQGLLVLEAMKMENE 121
+                 566889*******************99988887765 PP
+
+  == domain 2  score: 8.3 bits;  conditional E-value: 0.0047
+                 EES----SEE-SEEEEEEE CS
+  PTS_EIIA_1  85 ellvkegdkVkagdklvev 103
+                 ++lvkegd+V +g++l+e+
+  ALM74085.1 132 KILVKEGDTVDTGQPLIEI 150
+                 789*************986 PP
+
+>> AEC52773.1  putative acetyl-CoA carboxylase biotin carboxyl carrier protein subunit [Pyrococcus sp. NA2] GCA_000211475.1_ASM21147v1_protein.faa
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.6   0.0       5.4   1.3e+05      76      86 ..      25      35 ..       5      40 .. 0.59
+   2 !   12.1   0.0   0.00032       7.6      76     111 ..      79     114 ..      74     123 .. 0.86
+   3 !    7.7   0.0    0.0074   1.8e+02      85     102 ..     125     142 ..     118     144 .] 0.86
+
+  Alignments for each domain:
+  == domain 1  score: -1.6 bits;  conditional E-value: 5.4
+                TTTTTTTTEEE CS
+  PTS_EIIA_1 76 tvklkgegFel 86
+                +v+l+ge +e+
+  AEC52773.1 25 KVTLEGETYEV 35
+                45555555555 PP
+
+  == domain 2  score: 12.1 bits;  conditional E-value: 0.00032
+                 TTTTTTTTEEES----SEE-SEEEEEEE-HHHHGGG CS
+  PTS_EIIA_1  76 tvklkgegFellvkegdkVkagdklvevdleaikka 111
+                 t  + g+  ++lvkeg++Vk g+ l+ ++  +++++
+  AEC52773.1  79 TAPMPGKILKILVKEGQEVKLGQGLLILEAMKMENE 114
+                 777899*******************99888877765 PP
+
+  == domain 3  score: 7.7 bits;  conditional E-value: 0.0074
+                 EES----SEE-SEEEEEE CS
+  PTS_EIIA_1  85 ellvkegdkVkagdklve 102
+                 ++lvkegd+V +g++l+e
+  AEC52773.1 125 RILVKEGDSVDTGQPLIE 142
+                 689*************98 PP
+
+>> EEB73745.1  methylmalonyl-CoA decarboxylase gamma chain [Thermococcus sp. AM4] GCA_000151205.2_ASM15120v2_protein.faa
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   11.6   0.0   0.00045        11      76     111 ..      88     123 ..      84     132 .. 0.86
+   2 !    8.4   0.0    0.0044     1e+02      85     102 ..     134     151 ..     128     153 .] 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 11.6 bits;  conditional E-value: 0.00045
+                 TTTTTTTTEEES----SEE-SEEEEEEE-HHHHGGG CS
+  PTS_EIIA_1  76 tvklkgegFellvkegdkVkagdklvevdleaikka 111
+                 t  + g+  ++lv+eg++Vk+g+ lv ++  +++++
+  EEB73745.1  88 TAPMPGKILRVLVSEGQEVKTGQGLVVLEAMKMENE 123
+                 45578999******************9988888765 PP
+
+  == domain 2  score: 8.4 bits;  conditional E-value: 0.0044
+                 EES----SEE-SEEEEEE CS
+  PTS_EIIA_1  85 ellvkegdkVkagdklve 102
+                 +++vkegd+V++gd+lve
+  EEB73745.1 134 KIYVKEGDTVNTGDPLVE 151
+                 789*************98 PP
+
+>> AEA12510.1  Pyruvate/2-oxoglutarate dehydrogenase complex, dihydrolipoamide acyltransferase (E2) component [Thermoproteus uzoniensis 768-20] GCA_000193375.1_ASM19337v1_protein.faa
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.5   0.0   0.00024       5.6      80     107 ..      14      41 ..      10      47 .. 0.89
+   2 !    7.5   0.1    0.0083     2e+02      80     107 ..      51      78 ..      41      87 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 12.5 bits;  conditional E-value: 0.00024
+                 TTTTEEES----SEE-SEEEEEEE-HHH CS
+  PTS_EIIA_1  80 kgegFellvkegdkVkagdklvevdlea 107
+                 +ge  + +vkegd Vk+gd+lv+v  e+
+  AEA12510.1  14 EGEIVKWHVKEGDYVKEGDPLVDVMTEK 41 
+                 79999*****************997765 PP
+
+  == domain 2  score: 7.5 bits;  conditional E-value: 0.0083
+                 TTTTEEES----SEE-SEEEEEEE-HHH CS
+  PTS_EIIA_1  80 kgegFellvkegdkVkagdklvevdlea 107
+                  g++ ++l+keg+ Vk g++l+ +++++
+  AEA12510.1  51 AGKVVKILAKEGQVVKVGQTLCVIEPAE 78 
+                 79999****************9988776 PP
+
+>> ALM73984.1  Methylmalonyl-CoA decarboxylase gamma subunit [Thermococcus barophilus] GCA_001433455.1_ASM143345v1_protein.faa
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.0   0.0   0.00033       7.9      76     111 ..      89     124 ..      83     134 .. 0.86
+   2 !    8.0   0.0    0.0057   1.4e+02      85     102 ..     135     152 ..     129     154 .] 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 12.0 bits;  conditional E-value: 0.00033
+                 TTTTTTTTEEES----SEE-SEEEEEEE-HHHHGGG CS
+  PTS_EIIA_1  76 tvklkgegFellvkegdkVkagdklvevdleaikka 111
+                 t  + g++ ++lv+egd+Vkag+ l+ ++  +++++
+  ALM73984.1  89 TAPMPGKVLRILVREGDEVKAGQGLLVLEAMKMENE 124
+                 566889*******************99988887765 PP
+
+  == domain 2  score: 8.0 bits;  conditional E-value: 0.0057
+                 EES----SEE-SEEEEEE CS
+  PTS_EIIA_1  85 ellvkegdkVkagdklve 102
+                 ++lvkegd+V +g++l+e
+  ALM73984.1 135 KILVKEGDTVDTGQPLIE 152
+                 789*************98 PP
+
+>> AHL23679.1  Biotin carboxyl carrier protein [Thermococcus nautili] GCA_000585495.1_ASM58549v1_protein.faa
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   11.6   0.0   0.00045        11      76     111 ..      87     122 ..      83     131 .. 0.86
+   2 !    8.5   0.0    0.0041        97      85     102 ..     133     150 ..     125     152 .] 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 11.6 bits;  conditional E-value: 0.00045
+                 TTTTTTTTEEES----SEE-SEEEEEEE-HHHHGGG CS
+  PTS_EIIA_1  76 tvklkgegFellvkegdkVkagdklvevdleaikka 111
+                 t  + g+  ++lv+eg++Vk+g+ lv ++  +++++
+  AHL23679.1  87 TAPMPGKILRVLVSEGQEVKTGQGLVVLEAMKMENE 122
+                 45578999******************9988888765 PP
+
+  == domain 2  score: 8.5 bits;  conditional E-value: 0.0041
+                 EES----SEE-SEEEEEE CS
+  PTS_EIIA_1  85 ellvkegdkVkagdklve 102
+                 +++vkegd+V++gd+lve
+  AHL23679.1 133 KIYVKEGDTVNTGDPLVE 150
+                 789*************98 PP
+
+>> ACS34530.1  Methylmalonyl-CoA decarboxylase gamma chain (MmdC) [Thermococcus gammatolerans EJ3] GCA_000022365.1_ASM2236v1_protein.faa
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.4   0.0       9.9   2.4e+05      26      46 ..      37      57 ..      27      65 .. 0.59
+   2 !   11.9   0.0   0.00037       8.9      76     110 ..      87     121 ..      82     127 .. 0.85
+   3 !    7.7   0.0     0.007   1.7e+02      85     102 ..     133     150 ..     126     152 .] 0.87
+
+  Alignments for each domain:
+  == domain 1  score: -2.4 bits;  conditional E-value: 9.9
+                TTSEEEEEEE-SSEEEES--E CS
+  PTS_EIIA_1 26 mlGdGvaiepsegkvvapvdG 46
+                + G G+a+    ++  apv++
+  ACS34530.1 37 AEGLGIALPSVPETTSAPVSA 57
+                445566654444556666654 PP
+
+  == domain 2  score: 11.9 bits;  conditional E-value: 0.00037
+                 TTTTTTTTEEES----SEE-SEEEEEEE-HHHHGG CS
+  PTS_EIIA_1  76 tvklkgegFellvkegdkVkagdklvevdleaikk 110
+                 t  + g+  ++lv+eg++Vkag+ l+ ++  ++++
+  ACS34530.1  87 TAPMPGKILRVLVSEGQEVKAGQGLLVLEAMKMEN 121
+                 45578999*****************9988887776 PP
+
+  == domain 3  score: 7.7 bits;  conditional E-value: 0.007
+                 EES----SEE-SEEEEEE CS
+  PTS_EIIA_1  85 ellvkegdkVkagdklve 102
+                 +++vkegd V++gd+lve
+  ACS34530.1 133 KIYVKEGDAVNTGDPLVE 150
+                 789*************98 PP
+
+>> AAB89171.1  oxaloacetate decarboxylase, biotin carboxyl carrier subunit, putative [Archaeoglobus fulgidus DSM 4304] GCA_000008665.1_ASM866v1_protein.faa
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.3   0.1   1.5e-05      0.37      76     120 ..      74     118 ..      71     121 .. 0.89
+   2 ?    4.5   0.0     0.072   1.7e+03      81     101 ..     116     136 ..     113     140 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 16.3 bits;  conditional E-value: 1.5e-05
+                 TTTTTTTTEEES----SEE-SEEEEEEE-HHHHGGGSS---EEEE CS
+  PTS_EIIA_1  76 tvklkgegFellvkegdkVkagdklvevdleaikkagystttpvv 120
+                 t  l g + ++lvk gdkVkag+++v v+  +++++ +s+t  vv
+  AAB89171.1  74 TSMLPGVVLKILVKPGDKVKAGEPVVIVESMKMENEIVSPTEGVV 118
+                 567889999*************************99999887666 PP
+
+  == domain 2  score: 4.5 bits;  conditional E-value: 0.072
+                 TTTEEES----SEE-SEEEEE CS
+  PTS_EIIA_1  81 gegFellvkegdkVkagdklv 101
+                 g + e+lvkeg++++agd ++
+  AAB89171.1 116 GVVAEILVKEGQRIEAGDIVA 136
+                 5566899**********9876 PP
+
+>> AIG99074.1  Biotin carboxyl carrier protein [Archaeoglobus fulgidus DSM 8774] GCA_000734035.1_ASM73403v1_protein.faa
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.3   0.1   1.5e-05      0.37      76     120 ..      74     118 ..      71     121 .. 0.89
+   2 ?    4.5   0.0     0.072   1.7e+03      81     101 ..     116     136 ..     113     140 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 16.3 bits;  conditional E-value: 1.5e-05
+                 TTTTTTTTEEES----SEE-SEEEEEEE-HHHHGGGSS---EEEE CS
+  PTS_EIIA_1  76 tvklkgegFellvkegdkVkagdklvevdleaikkagystttpvv 120
+                 t  l g + ++lvk gdkVkag+++v v+  +++++ +s+t  vv
+  AIG99074.1  74 TSMLPGVVLKILVKPGDKVKAGEPVVIVESMKMENEIVSPTEGVV 118
+                 567889999*************************99999887666 PP
+
+  == domain 2  score: 4.5 bits;  conditional E-value: 0.072
+                 TTTEEES----SEE-SEEEEE CS
+  PTS_EIIA_1  81 gegFellvkegdkVkagdklv 101
+                 g + e+lvkeg++++agd ++
+  AIG99074.1 116 GVVAEILVKEGQRIEAGDIVA 136
+                 5566899**********9876 PP
+
+>> AFK22359.1  putative acetyl-CoA carboxylase biotin carboxyl carrier protein subunit [Pyrococcus sp. ST04] GCA_000263735.1_ASM26373v1_protein.faa
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.9   0.0       6.7   1.6e+05      77      87 ..      26      36 ..       6      51 .. 0.69
+   2 !   11.9   0.2   0.00036       8.5      78     111 ..      81     114 ..      75     144 .] 0.56
+
+  Alignments for each domain:
+  == domain 1  score: -1.9 bits;  conditional E-value: 6.7
+                TTTTTTTEEES CS
+  PTS_EIIA_1 77 vklkgegFell 87
+                v+l+ge +e+ 
+  AFK22359.1 26 VTLQGETYEVE 36
+                45555555554 PP
+
+  == domain 2  score: 11.9 bits;  conditional E-value: 0.00036
+                 TTTTTTEEES----SEE-SEEEEEEE-HHHHGGG CS
+  PTS_EIIA_1  78 klkgegFellvkegdkVkagdklvevdleaikka 111
+                  + g++ ++lv+eg++Vk g+ l+ ++  +++++
+  AFK22359.1  81 PMPGKVLKILVNEGQEVKIGQGLLILEAMKMENE 114
+                 4556666666666666666666655555544443 PP
+
+>> AJC71305.1  acetyl-CoA carboxylase [Thermococcus guaymasensis DSM 11113] GCA_000816105.1_ASM81610v1_protein.faa
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.0   0.1   0.00035       8.3      76     111 ..      89     124 ..      84     133 .. 0.86
+   2 !    7.8   0.0    0.0068   1.6e+02      85     102 ..     135     152 ..     128     154 .] 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 12.0 bits;  conditional E-value: 0.00035
+                 TTTTTTTTEEES----SEE-SEEEEEEE-HHHHGGG CS
+  PTS_EIIA_1  76 tvklkgegFellvkegdkVkagdklvevdleaikka 111
+                 t  + g++ ++lvkeg++Vk g+ l+ ++  +++++
+  AJC71305.1  89 TAPMPGKVVRILVKEGQEVKVGQGLLVLEAMKMENE 124
+                 4557899******************99988887765 PP
+
+  == domain 2  score: 7.8 bits;  conditional E-value: 0.0068
+                 EES----SEE-SEEEEEE CS
+  PTS_EIIA_1  85 ellvkegdkVkagdklve 102
+                 +++vkegd V++gd+l+e
+  AJC71305.1 135 KIYVKEGDAVNTGDPLIE 152
+                 789*************98 PP
+
+>> BAK54343.1  acetyl-CoA/propionyl-CoA carboxylase beta subunit [Sulfurisphaera tokodaii str. 7] GCA_000011205.1_ASM1120v1_protein.faa
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.4   0.3   0.00025       6.1      79     105 ..     105     131 ..      31     142 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 12.4 bits;  conditional E-value: 0.00025
+                 TTTTTEEES----SEE-SEEEEEEE-H CS
+  PTS_EIIA_1  79 lkgegFellvkegdkVkagdklvevdl 105
+                 ++g+  ++ vkegd V++g++l++++ 
+  BAK54343.1 105 MQGRIVQIRVKEGDAVNKGQPLLSIEA 131
+                 6899999***************99865 PP
+
+>> QIW23457.1  acetyl-CoA carboxylase biotin carboxyl carrier protein subunit [Sulfolobus sp. S-194] GCA_012222305.1_ASM1222230v1_protein.faa
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.3   0.0       0.7   1.7e+04      78     105 ..      51      78 ..      46      91 .. 0.90
+   2 ?    3.8   0.0      0.12   2.8e+03      33      51 ..      94     112 ..      83     113 .. 0.83
+   3 !   11.7   0.0   0.00042        10      79     105 ..     105     131 ..     103     142 .. 0.87
+   4 ?    4.8   0.0     0.058   1.4e+03      85     101 ..     148     164 ..     135     167 .] 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 1.3 bits;  conditional E-value: 0.7
+                 TTTTTTEEES----SEE-SEEEEEEE-H CS
+  PTS_EIIA_1  78 klkgegFellvkegdkVkagdklvevdl 105
+                 k++ge+ +++v +g  V   +++++vd 
+  QIW23457.1  51 KINGEVHRVYVDNGFIVIDDETIFKVDR 78 
+                 7899999999**9999999999999995 PP
+
+  == domain 2  score: 3.8 bits;  conditional E-value: 0.12
+                 EEE-SSEEEES--EEEEE- CS
+  PTS_EIIA_1  33 iepsegkvvapvdGkvekv 51 
+                 i+ +eg++++p++G+++++
+  QIW23457.1  94 IKGKEGEILSPMQGRIVQI 112
+                 6677889999999999876 PP
+
+  == domain 3  score: 11.7 bits;  conditional E-value: 0.00042
+                 TTTTTEEES----SEE-SEEEEEEE-H CS
+  PTS_EIIA_1  79 lkgegFellvkegdkVkagdklvevdl 105
+                 ++g+  ++ vkegd V++g++l++++ 
+  QIW23457.1 105 MQGRIVQIRVKEGDAVNKGQPLLSIEA 131
+                 7899999***************99865 PP
+
+  == domain 4  score: 4.8 bits;  conditional E-value: 0.058
+                 EES----SEE-SEEEEE CS
+  PTS_EIIA_1  85 ellvkegdkVkagdklv 101
+                 +++vk g+ Vk+gd+l+
+  QIW23457.1 148 KIMVKPGQGVKKGDLLL 164
+                 789***********997 PP
+
+>> CAD5243539.1  Glutaconyl-CoA decarboxylase subunit gamma [Thermococcus camini] GCA_904067545.1_T_caminus_IRI35c_protein.faa
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.9   0.0   0.00017       4.2      73     110 ..      84     121 ..      83     128 .. 0.87
+   2 ?    6.9   0.0     0.013   3.1e+02      85     102 ..     133     150 ..     126     152 .] 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 12.9 bits;  conditional E-value: 0.00017
+                   SSSTTTTTTTTEEES----SEE-SEEEEEEE-HHHHGG CS
+    PTS_EIIA_1  73 GidtvklkgegFellvkegdkVkagdklvevdleaikk 110
+                   G+ t  + g+  ++lvkeg++Vk+g+ lv ++  ++++
+  CAD5243539.1  84 GVVTAPMPGKILRILVKEGEQVKTGQGLVVLEAMKMEN 121
+                   56688899*********************998888776 PP
+
+  == domain 2  score: 6.9 bits;  conditional E-value: 0.013
+                   EES----SEE-SEEEEEE CS
+    PTS_EIIA_1  85 ellvkegdkVkagdklve 102
+                   ++lvkegd+V +g+ l+e
+  CAD5243539.1 133 KILVKEGDTVDTGQALIE 150
+                   789*************98 PP
+
+>> QXJ27470.1  Lipoate carrier protein [Saccharolobus shibatae B12] GCA_019175345.1_ASM1917534v1_protein.faa
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   10.4   0.0    0.0011        26      81     107 ..      14      40 ..      10      49 .. 0.89
+   2 !   10.5   0.1   0.00098        23      78     101 ..      48      71 ..      43      75 .] 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 10.4 bits;  conditional E-value: 0.0011
+                 TTTEEES----SEE-SEEEEEEE-HHH CS
+  PTS_EIIA_1  81 gegFellvkegdkVkagdklvevdlea 107
+                 ge  +l++keg+++k gd ++ev++e+
+  QXJ27470.1  14 GEIVSLYIKEGSEIKVGDVIAEVEIEK 40 
+                 7888999****************9986 PP
+
+  == domain 2  score: 10.5 bits;  conditional E-value: 0.00098
+                 TTTTTTEEES----SEE-SEEEEE CS
+  PTS_EIIA_1  78 klkgegFellvkegdkVkagdklv 101
+                 + +g++ ++lvkegdkV+ g+ ++
+  QXJ27470.1  48 QYNGKVVKVLVKEGDKVSPGSVIA 71 
+                 679*****************9886 PP
+
+>> AHC50763.1  biotin carboxyl carrier protein of propionyl-CoA carboxylase subunit beta [Sulfolobus acidocaldarius SUSAZ] GCA_000508305.1_ASM50830v1_protein.faa
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.1   0.0      0.82     2e+04      77     105 ..      50      78 ..      45      91 .. 0.84
+   2 ?    3.0   0.0       0.2   4.9e+03      36      51 ..      97     112 ..      92     113 .. 0.77
+   3 !   12.2   0.0    0.0003       7.2      79     105 ..     105     131 ..      99     142 .. 0.88
+   4 ?    5.1   0.0     0.048   1.1e+03      85     101 ..     148     164 ..     135     167 .] 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 1.1 bits;  conditional E-value: 0.82
+                 TTTTTTTEEES----SEE-SEEEEEEE-H CS
+  PTS_EIIA_1  77 vklkgegFellvkegdkVkagdklvevdl 105
+                 +k++ge+ ++ + +g+ V  +++l++vd 
+  AHC50763.1  50 IKVNGEVHTISIINGHLVIDNETLFKVDR 78 
+                 67899999999999999999999999995 PP
+
+  == domain 2  score: 3.0 bits;  conditional E-value: 0.2
+                 -SSEEEES--EEEEE- CS
+  PTS_EIIA_1  36 segkvvapvdGkvekv 51 
+                 +eg++v+p++G+++++
+  AHC50763.1  97 KEGEIVSPLQGRIVQI 112
+                 5788999999998876 PP
+
+  == domain 3  score: 12.2 bits;  conditional E-value: 0.0003
+                 TTTTTEEES----SEE-SEEEEEEE-H CS
+  PTS_EIIA_1  79 lkgegFellvkegdkVkagdklvevdl 105
+                 l+g+  ++ vkegd V++g++l++++ 
+  AHC50763.1 105 LQGRIVQIRVKEGDAVNKGQPLLSIEA 131
+                 789999****************99865 PP
+
+  == domain 4  score: 5.1 bits;  conditional E-value: 0.048
+                 EES----SEE-SEEEEE CS
+  PTS_EIIA_1  85 ellvkegdkVkagdklv 101
+                 ++lvk g+ Vk+gd+l+
+  AHC50763.1 148 KILVKPGQGVKKGDLLL 164
+                 789***********997 PP
+
+>> ABL77565.1  biotin/lipoyl attachment domain-containing protein [Thermofilum pendens Hrk 5] GCA_000015225.1_ASM1522v1_protein.faa
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.1   0.7   1.9e-05      0.44      34     103 ..      30     102 ..      18     106 .] 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 16.1 bits;  conditional E-value: 1.9e-05
+                 EE-.SSEEEES--EEEEE--.....SSSSEEEEESSSS-EEEEE-SSSTTTTTTTTEEES----SEE-SEEEEEEE CS
+  PTS_EIIA_1  34 eps.egkvvapvdGkvekvf.....ptkHaigiktddgvevlihiGidtvklkgegFellvkegdkVkagdklvev 103
+                 +p+ ++ vvap++G+v+ +        +   +i t + ++ li +   + +++g + e+lv+eg+ Vk+g +++++
+  ABL77565.1  30 QPQsKEYVVAPITGRVSRILvkegqRVEKGTTIATMEAMKTLIEV---KSSMNGVVKEVLVAEGEVVKQGAPIARI 102
+                 5663567*********99873221123345567777888888887...6899********************9986 PP
+
+>> AFL94862.1  putative methylmalonyl-CoA decarboxylase subunit gamma [Thermococcus cleftensis] GCA_000265525.1_ASM26552v1_protein.faa
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.1   0.0   0.00016       3.8      73     110 ..      87     124 ..      86     131 .. 0.87
+   2 ?    6.7   0.0     0.015   3.6e+02      85     102 ..     136     153 ..     129     155 .] 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 13.1 bits;  conditional E-value: 0.00016
+                 SSSTTTTTTTTEEES----SEE-SEEEEEEE-HHHHGG CS
+  PTS_EIIA_1  73 GidtvklkgegFellvkegdkVkagdklvevdleaikk 110
+                 G+ t  + g+  ++lvkeg+kVk+g+ lv ++  ++++
+  AFL94862.1  87 GVVTAPMPGKILRILVKEGEKVKTGQGLVVLEAMKMEN 124
+                 56688899*********************998888776 PP
+
+  == domain 2  score: 6.7 bits;  conditional E-value: 0.015
+                 EES----SEE-SEEEEEE CS
+  PTS_EIIA_1  85 ellvkegdkVkagdklve 102
+                 ++lvkegd+V +g+ l+e
+  AFL94862.1 136 KILVKEGDTVDTGQALIE 153
+                 789*************98 PP
+
+>> AAY79677.1  conserved protein [Sulfolobus acidocaldarius DSM 639] GCA_000012285.1_ASM1228v1_protein.faa
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.8   0.1      0.24   5.7e+03      76     105 ..      49      78 ..      45      90 .. 0.88
+   2 ?    3.2   0.0      0.18   4.2e+03      36      51 ..      97     112 ..      81     113 .. 0.79
+   3 !   12.0   0.0   0.00034       8.1      79     105 ..     105     131 ..     101     140 .. 0.88
+   4 ?    3.6   0.0      0.13   3.1e+03      85     101 ..     148     164 ..     134     167 .] 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 2.8 bits;  conditional E-value: 0.24
+                 TTTTTTTTEEES----SEE-SEEEEEEE-H CS
+  PTS_EIIA_1  76 tvklkgegFellvkegdkVkagdklvevdl 105
+                  vk++ge+ ++ + +g+ V  +++l++vd 
+  AAY79677.1  49 LVKVNGEVHTVSIINGHLVIDNETLFKVDR 78 
+                 6999***********************996 PP
+
+  == domain 2  score: 3.2 bits;  conditional E-value: 0.18
+                 -SSEEEES--EEEEE- CS
+  PTS_EIIA_1  36 segkvvapvdGkvekv 51 
+                 +eg++v+p++G+++++
+  AAY79677.1  97 KEGEIVSPLQGRIVQI 112
+                 5688999999998876 PP
+
+  == domain 3  score: 12.0 bits;  conditional E-value: 0.00034
+                 TTTTTEEES----SEE-SEEEEEEE-H CS
+  PTS_EIIA_1  79 lkgegFellvkegdkVkagdklvevdl 105
+                 l+g+  ++ vkegd V++g++l++++ 
+  AAY79677.1 105 LQGRIVQIRVKEGDAVNKGQPLLSIEA 131
+                 789999****************99865 PP
+
+  == domain 4  score: 3.6 bits;  conditional E-value: 0.13
+                 EES----SEE-SEEEEE CS
+  PTS_EIIA_1  85 ellvkegdkVkagdklv 101
+                 ++l+k g+ Vk+gd+l+
+  AAY79677.1 148 KVLIKPGQGVKKGDLLL 164
+                 7899**********997 PP
+
+>> AGE70235.1  hypothetical protein SacN8_01270 [Sulfolobus acidocaldarius N8] GCA_000340315.1_ASM34031v1_protein.faa
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.8   0.1      0.24   5.7e+03      76     105 ..      49      78 ..      45      90 .. 0.88
+   2 ?    3.2   0.0      0.18   4.2e+03      36      51 ..      97     112 ..      81     113 .. 0.79
+   3 !   12.0   0.0   0.00034       8.1      79     105 ..     105     131 ..     101     140 .. 0.88
+   4 ?    3.6   0.0      0.13   3.1e+03      85     101 ..     148     164 ..     134     167 .] 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 2.8 bits;  conditional E-value: 0.24
+                 TTTTTTTTEEES----SEE-SEEEEEEE-H CS
+  PTS_EIIA_1  76 tvklkgegFellvkegdkVkagdklvevdl 105
+                  vk++ge+ ++ + +g+ V  +++l++vd 
+  AGE70235.1  49 LVKVNGEVHTVSIINGHLVIDNETLFKVDR 78 
+                 6999***********************996 PP
+
+  == domain 2  score: 3.2 bits;  conditional E-value: 0.18
+                 -SSEEEES--EEEEE- CS
+  PTS_EIIA_1  36 segkvvapvdGkvekv 51 
+                 +eg++v+p++G+++++
+  AGE70235.1  97 KEGEIVSPLQGRIVQI 112
+                 5688999999998876 PP
+
+  == domain 3  score: 12.0 bits;  conditional E-value: 0.00034
+                 TTTTTEEES----SEE-SEEEEEEE-H CS
+  PTS_EIIA_1  79 lkgegFellvkegdkVkagdklvevdl 105
+                 l+g+  ++ vkegd V++g++l++++ 
+  AGE70235.1 105 LQGRIVQIRVKEGDAVNKGQPLLSIEA 131
+                 789999****************99865 PP
+
+  == domain 4  score: 3.6 bits;  conditional E-value: 0.13
+                 EES----SEE-SEEEEE CS
+  PTS_EIIA_1  85 ellvkegdkVkagdklv 101
+                 ++l+k g+ Vk+gd+l+
+  AGE70235.1 148 KVLIKPGQGVKKGDLLL 164
+                 7899**********997 PP
+
+>> AGE72510.1  hypothetical protein SacRon12I_01270 [Sulfolobus acidocaldarius Ron12/I] GCA_000338775.1_ASM33877v1_protein.faa
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.8   0.1      0.24   5.7e+03      76     105 ..      49      78 ..      45      90 .. 0.88
+   2 ?    3.2   0.0      0.18   4.2e+03      36      51 ..      97     112 ..      81     113 .. 0.79
+   3 !   12.0   0.0   0.00034       8.1      79     105 ..     105     131 ..     101     140 .. 0.88
+   4 ?    3.6   0.0      0.13   3.1e+03      85     101 ..     148     164 ..     134     167 .] 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 2.8 bits;  conditional E-value: 0.24
+                 TTTTTTTTEEES----SEE-SEEEEEEE-H CS
+  PTS_EIIA_1  76 tvklkgegFellvkegdkVkagdklvevdl 105
+                  vk++ge+ ++ + +g+ V  +++l++vd 
+  AGE72510.1  49 LVKVNGEVHTVSIINGHLVIDNETLFKVDR 78 
+                 6999***********************996 PP
+
+  == domain 2  score: 3.2 bits;  conditional E-value: 0.18
+                 -SSEEEES--EEEEE- CS
+  PTS_EIIA_1  36 segkvvapvdGkvekv 51 
+                 +eg++v+p++G+++++
+  AGE72510.1  97 KEGEIVSPLQGRIVQI 112
+                 5688999999998876 PP
+
+  == domain 3  score: 12.0 bits;  conditional E-value: 0.00034
+                 TTTTTEEES----SEE-SEEEEEEE-H CS
+  PTS_EIIA_1  79 lkgegFellvkegdkVkagdklvevdl 105
+                 l+g+  ++ vkegd V++g++l++++ 
+  AGE72510.1 105 LQGRIVQIRVKEGDAVNKGQPLLSIEA 131
+                 789999****************99865 PP
+
+  == domain 4  score: 3.6 bits;  conditional E-value: 0.13
+                 EES----SEE-SEEEEE CS
+  PTS_EIIA_1  85 ellvkegdkVkagdklv 101
+                 ++l+k g+ Vk+gd+l+
+  AGE72510.1 148 KVLIKPGQGVKKGDLLL 164
+                 7899**********997 PP
+
+>> ASJ14654.1  acetyl-CoA carboxylase biotin carboxyl carrier protein subunit [Thermococcus radiotolerans] GCA_002214565.1_ASM221456v1_protein.faa
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.4   0.0   0.00026       6.2      76     111 ..      88     123 ..      84     134 .. 0.86
+   2 ?    7.1   0.1     0.011   2.6e+02      85     102 ..     134     151 ..     127     153 .] 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 12.4 bits;  conditional E-value: 0.00026
+                 TTTTTTTTEEES----SEE-SEEEEEEE-HHHHGGG CS
+  PTS_EIIA_1  76 tvklkgegFellvkegdkVkagdklvevdleaikka 111
+                 t  + g+  ++lvkegd+Vk+g+ l+ ++  +++++
+  ASJ14654.1  88 TAPMPGKILRILVKEGDEVKTGQGLLILEAMKMENE 123
+                 777899*******************99888887765 PP
+
+  == domain 2  score: 7.1 bits;  conditional E-value: 0.011
+                 EES----SEE-SEEEEEE CS
+  PTS_EIIA_1  85 ellvkegdkVkagdklve 102
+                 ++lvkegd+V +g++l+e
+  ASJ14654.1 134 KILVKEGDTVDTGQTLIE 151
+                 789*************98 PP
+
+>> AZH27003.1  phosphatidylserine decarboxylase [Haloplanus aerogenes] GCA_003856835.1_ASM385683v1_protein.faa
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.3   0.0      0.17   4.1e+03      38      54 ..      58      74 ..      50      81 .. 0.81
+   2 !   11.5   0.0   0.00048        12      30     102 ..      81     162 ..      74     167 .. 0.78
+   3 ?    3.3   0.0      0.16   3.9e+03      86     102 ..     182     198 ..     177     201 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 3.3 bits;  conditional E-value: 0.17
+                SEEEES--EEEEE--SS CS
+  PTS_EIIA_1 38 gkvvapvdGkvekvfpt 54
+                + vvap+dG+v++v + 
+  AZH27003.1 58 NGVVAPADGRVSVVREE 74
+                569********998765 PP
+
+  == domain 2  score: 11.5 bits;  conditional E-value: 0.00048
+                 EEEEEE-S.SEEEES--EEEEE--..SSSSEEEEESSSS-EEEEE-SSSTTTT......TTTTEEES----SEE-SEEEEEE CS
+  PTS_EIIA_1  30 Gvaiepse.gkvvapvdGkvekvf..ptkHaigiktddgvevlihiGidtvkl......kgegFellvkegdkVkagdklve 102
+                 Gv ++ ++ + + ap+dG+ve+++  p  H  ++++d++ +  + + +dt  +        +    + ++gd+V +gd++ +
+  AZH27003.1  81 GVFMNVTDvHVLRAPMDGTVETAThrPGAHRPAFTKDSDRNERVDVTLDTHGVsmiagwFARRIYPYLTAGDEVARGDRIGH 162
+                 7777777635688********99866889*********************87644543333445677889999999998865 PP
+
+  == domain 3  score: 3.3 bits;  conditional E-value: 0.16
+                 ES----SEE-SEEEEEE CS
+  PTS_EIIA_1  86 llvkegdkVkagdklve 102
+                 llv+egdkV+ag+++v 
+  AZH27003.1 182 LLVSEGDKVRAGETVVA 198
+                 689**********9986 PP
+
+>> AFH42955.1  Carboxyl transferase, biotin-binding subunit [Fervidicoccus fontis Kam940] GCA_000258425.1_ASM25842v1_protein.faa
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.5   0.2   5.6e-05       1.3      76     108 ..       5      37 ..       2      45 .. 0.86
+   2 ?    6.8   0.0     0.014   3.3e+02      80     103 ..      46      69 ..      34      70 .] 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 14.5 bits;  conditional E-value: 5.6e-05
+                 TTTTTTTTEEES----SEE-SEEEEEEE-HHHH CS
+  PTS_EIIA_1  76 tvklkgegFellvkegdkVkagdklvevdleai 108
+                 t k+ g+  ++lvk+gd+Vk+++ l++++  ++
+  AFH42955.1   5 TSKVPGKIVDILVKDGDEVKKNQVLLKIESMKM 37 
+                 778899*********************986654 PP
+
+  == domain 2  score: 6.8 bits;  conditional E-value: 0.014
+                 TTTTEEES----SEE-SEEEEEEE CS
+  PTS_EIIA_1  80 kgegFellvkegdkVkagdklvev 103
+                 +g++ +++v++gd V++ ++l+e+
+  AFH42955.1  46 DGKVEKIFVSKGDFVQKDKPLLEI 69 
+                 456667788888888888888775 PP
+
+>> AEE94989.1  biotin carboxyl carrier protein of acetyl-CoA carboxylase [Acidianus hospitalis W1] GCA_000213215.1_ASM21321v1_protein.faa
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.9   0.1   0.00018       4.3      79     105 ..     105     131 ..      21     143 .. 0.91
+   2 ?    0.5   0.0       1.2   2.9e+04      37      51 ..     135     149 ..     130     150 .. 0.77
+   3 ?    6.8   0.3     0.014   3.3e+02      85     101 ..     148     164 ..     137     167 .] 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 12.9 bits;  conditional E-value: 0.00018
+                 TTTTTEEES----SEE-SEEEEEEE-H CS
+  PTS_EIIA_1  79 lkgegFellvkegdkVkagdklvevdl 105
+                 l+g++ ++ vkegd V++g++l++++ 
+  AEE94989.1 105 LQGRVVSIRVKEGDAVNKGQPLLSIEA 131
+                 799999****************99765 PP
+
+  == domain 2  score: 0.5 bits;  conditional E-value: 1.2
+                 SSEEEES--EEEEE- CS
+  PTS_EIIA_1  37 egkvvapvdGkvekv 51 
+                 e  + apv+G vek+
+  AEE94989.1 135 ETIISAPVAGVVEKI 149
+                 557899999999987 PP
+
+  == domain 3  score: 6.8 bits;  conditional E-value: 0.014
+                 EES----SEE-SEEEEE CS
+  PTS_EIIA_1  85 ellvkegdkVkagdklv 101
+                 ++lvk+g+ Vk+gd+lv
+  AEE94989.1 148 KILVKQGQGVKKGDTLV 164
+                 789************98 PP
+
+>> ASA76902.1  acetyl-CoA carboxylase biotin carboxyl carrier protein subunit [Thermococcus sp. 5-4] GCA_002197185.1_ASM219718v1_protein.faa
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.4   0.0   0.00026       6.2      76     111 ..      88     123 ..      84     134 .. 0.86
+   2 ?    7.1   0.1     0.011   2.6e+02      85     102 ..     134     151 ..     127     153 .] 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 12.4 bits;  conditional E-value: 0.00026
+                 TTTTTTTTEEES----SEE-SEEEEEEE-HHHHGGG CS
+  PTS_EIIA_1  76 tvklkgegFellvkegdkVkagdklvevdleaikka 111
+                 t  + g+  ++lvkegd+Vk+g+ l+ ++  +++++
+  ASA76902.1  88 TAPMPGKILRILVKEGDEVKTGQGLLILEAMKMENE 123
+                 777899*******************99888887765 PP
+
+  == domain 2  score: 7.1 bits;  conditional E-value: 0.011
+                 EES----SEE-SEEEEEE CS
+  PTS_EIIA_1  85 ellvkegdkVkagdklve 102
+                 ++lvkegd+V +g++l+e
+  ASA76902.1 134 KILVKEGDTVDTGQTLIE 151
+                 789*************98 PP
+
+>> ASI98250.1  acetyl-CoA carboxylase biotin carboxyl carrier protein subunit [Thermococcus celer Vu 13 = JCM 8558] GCA_002214365.1_ASM221436v1_protein.faa
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.9   0.0   0.00018       4.3      73     112 ..      90     129 ..      89     139 .. 0.86
+   2 ?    6.7   0.0     0.015   3.6e+02      85     102 ..     139     156 ..     132     158 .] 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 12.9 bits;  conditional E-value: 0.00018
+                 SSSTTTTTTTTEEES----SEE-SEEEEEEE-HHHHGGGS CS
+  PTS_EIIA_1  73 GidtvklkgegFellvkegdkVkagdklvevdleaikkag 112
+                 G+ t  + g+  ++lvkegd+Vk+g+ l+ ++  +++++ 
+  ASI98250.1  90 GVVTAPMPGKILRILVKEGDSVKTGQGLLVLEAMKMENEI 129
+                 56688899*********************99998888765 PP
+
+  == domain 2  score: 6.7 bits;  conditional E-value: 0.015
+                 EES----SEE-SEEEEEE CS
+  PTS_EIIA_1  85 ellvkegdkVkagdklve 102
+                 ++lvkegd+V +g+ l+e
+  ASI98250.1 139 KILVKEGDTVDTGQALIE 156
+                 789*************98 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (127 nodes)
+Target sequences:                    1102315  (315121363 residues searched)
+Passed MSV filter:                     33985  (0.0308306); expected 22046.3 (0.02)
+Passed bias filter:                    26329  (0.0238852); expected 22046.3 (0.02)
+Passed Vit filter:                      2826  (0.0025637); expected 1102.3 (0.001)
+Passed Fwd filter:                       476  (0.000431818); expected 11.0 (1e-05)
+Initial search space (Z):            1102315  [actual number of targets]
+Domain search space  (domZ):              46  [number of targets reported over threshold]
+# CPU time: 7.46u 0.43s 00:00:07.89 Elapsed: 00:00:16.90
+# Mc/sec: 2367.42
+//
+[ok]

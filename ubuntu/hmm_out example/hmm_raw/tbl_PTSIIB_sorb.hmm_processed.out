@@ -1,0 +1,6 @@
+QOJ79235.1           -          PTSIIB_sorb          PF03830.15   2.1e-40  144.1   0.0   2.5e-40  143.9   0.0   1.0   1   0   0   1   1   1   1 PTS sugar transporter subunit IIB [Infirmifilum lucidum] GCA_014876775.1_ASM1487677v1_protein
+AGT35676.1           -          PTSIIB_sorb          PF03830.15   5.3e-38  136.4   0.0   6.3e-38  136.1   0.0   1.0   1   0   0   1   1   1   1 hypothetical protein N186_06690 [Thermofilum adornatum] GCA_000446015.1_ASM44601v1_protein
+AJB41482.1           -          PTSIIB_sorb          PF03830.15   5.3e-38  136.4   0.0   6.3e-38  136.1   0.0   1.0   1   0   0   1   1   1   1 PTS system, mannose-specific IIA component / PTS system, mannose-specific IIB component [Thermofilum adornatus 1505] GCA_000813245.1_ASM81324v1_protein
+ABL78496.1           -          PTSIIB_sorb          PF03830.15   1.5e-37  134.9   0.0   1.8e-37  134.6   0.0   1.0   1   0   0   1   1   1   1 PTS system sorbose subfamily IIB component [Thermofilum pendens Hrk 5] GCA_000015225.1_ASM1522v1_protein
+
+batch_hmmsearch.sh
