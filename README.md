@@ -1,5 +1,5 @@
 # PTS
-The phosphoenolpyruvate (PEP) :carbohydrate phosphotransferase system (PTS) is mainly involved in the uptake of carbohydrates and regulation of microbial metabolism. Here we performed genome mining for PTS relevant components in sequenced prokaryotic genomes.
+The phosphoenolpyruvate (PEP) :carbohydrate phosphotransferase system (PTS) is mainly involved in the uptake of carbohydrates and regulation of microbial metabolism. Here we performed genome mining for PTS relevant components in sequenced prokaryotic genomes.<br/>
 
 
 
@@ -20,7 +20,7 @@ The phosphoenolpyruvate (PEP) :carbohydrate phosphotransferase system (PTS) is m
   ```
   
   
-1.4 Optional: Download processed_out outputs to your local computer if you run genome mining on a server. 
+1.4 Optional: Download processed_out outputs to your local computer if you run genome mining on a server. <br/>
   
   
   
@@ -32,7 +32,7 @@ The phosphoenolpyruvate (PEP) :carbohydrate phosphotransferase system (PTS) is m
   
   2.3 Download the list of genomes anlayzed by step 1 from the aforementioned folder, in_files. There are two files including assembly_summary_bacteria.txt and assembly_summary_archaea.txt. Then, move these files to the folder, genome_list. 
   
-  2.4 Run the R script, hmm_search_data_matrix.R. It will collect the taxonomic information for all genomes by using taxize, then save it to the folder, taxonomy. In the end, it generate a single output file containing the number of each hmm per genome, genome ID, and  corresponding taxnomic information.
+  2.4 Run the R script, hmm_search_data_matrix.R. It will collect the taxonomic information for all genomes by using taxize, then save it to the folder, taxonomy. In the end, it generate a single output file containing the number of each hmm per genome, genome ID, and  corresponding taxnomic information.<br/>
   
   
   
