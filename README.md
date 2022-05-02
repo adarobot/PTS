@@ -1,11 +1,10 @@
 # PTS
-The phosphoenolpyruvate (PEP) :carbohydrate phosphotransferase system (PTS) is mainly involved in the uptake of carbohydrates and regulation of microbial metabolism. Here we performed genome mining for PTS relevant components in sequenced prokaryotic genomes.<br/>
-
+The phosphoenolpyruvate (PEP) :carbohydrate phosphotransferase system (PTS) is mainly involved in the uptake of carbohydrates and regulation of microbial metabolism. Here we performed genome mining for PTS relevant components in sequenced prokaryotic genomes. The number of homologs in each genome was examined by hmm search (E<0.01) against the in-house protein database, and then grouped into two categories based on protein architecture, including singular or modulary/fused forms. Counts of each architecture-specific homolog in each genome, along with corresponding genome identification and taxonomic information, were summarized in a single master file for visualization and additional analyses.<br/>
 
 
 **Step 1 Genome mining using Ubuntu/linux scripts**
 
-1.1 Mannually download hmm files from database. PTS relevant hmm files have been pre-installed here in the folder, 'hmm_files'.
+     1.1 Mannually download hmm files from PDB database (https://www.rcsb.org/). PTS relevant hmm files have been pre-installed here in the folder, 'hmm_files'.
   
 1.2 Run the following script to download protein sequences from sequenced prokaryotes (including bacteria and archaea) from NCBI database. Only complete genomes are downloaded and included for downstream analysis. This funtion will generates five files in the folder, 'in_files'. The indexed protein database from all downloaded genomes is named "indexed_merged_protein.fas".
   
