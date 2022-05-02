@@ -8,9 +8,9 @@ Step 1 Genome mining using Ubuntu/linux scripts
   
   1.2 Run the following script to download protein sequences from sequenced prokaryotes (including bacteria and archaea) from NCBI database. Only complete genomes are downloaded and included for downstream analysis. This funtion will generates five files in the folder '''in_files'''. The indexed protein database from all downloaded genomes is named "indexed_merged_protein.fas".
   
-  '''
+  ```ruby
   source download_from_NCBI.sh
-  '''
+  ```
   
   1.3 Perform the hmmsearch function for each hmm file by running the follow command. It will generate a ready-to-process output for each hmm query, which is located in the directory, '''./hmm_out/hmm_raw'''.
   
