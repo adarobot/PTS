@@ -2,6 +2,7 @@
 The phosphoenolpyruvate (PEP) :carbohydrate phosphotransferase system (PTS) is mainly involved in the uptake of carbohydrates and regulation of microbial metabolism. Here we performed genome mining for PTS relevant components in sequenced prokaryotic genomes.
 
 
+
 **Step 1 Genome mining using Ubuntu/linux scripts**
 
 1.1 Mannually download hmm files from database. PTS relevant hmm files have been pre-installed here in the folder, hmm_files.
@@ -21,6 +22,8 @@ The phosphoenolpyruvate (PEP) :carbohydrate phosphotransferase system (PTS) is m
   
 1.4 Optional: Download processed_out outputs to your local computer if you run genome mining on a server. 
   
+  
+  
 **Step 2 Data processing using R scripts**
   
   2.1 Download this R folder and set your R working directory to this folder. 
@@ -31,7 +34,9 @@ The phosphoenolpyruvate (PEP) :carbohydrate phosphotransferase system (PTS) is m
   
   2.4 Run the R script, hmm_search_data_matrix.R. It will collect the taxonomic information for all genomes by using taxize, then save it to the folder, taxonomy. In the end, it generate a single output file containing the number of each hmm per genome, genome ID, and  corresponding taxnomic information.
   
-**Step 3 Data visualization and statistics.
+  
+  
+**Step 3 Data visualization and statistics**
    
    3.1 Use iTOL (https://itol.embl.de/) to make the phylogenetic tree. The abundance of PTS components are incorporated into different tracks.
    
