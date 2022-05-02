@@ -4,7 +4,7 @@ The phosphoenolpyruvate (PEP) :carbohydrate phosphotransferase system (PTS) is m
 
 **Step 1 Genome mining using Ubuntu/linux scripts**
 
-  -1.1 Mannually download hmm files from PDB database (https://www.rcsb.org/). PTS relevant hmm files have been pre-installed here in the folder, 'hmm_files'.
+  - 1.1 Mannually download hmm files from PDB database (https://www.rcsb.org/). PTS relevant hmm files have been pre-installed here in the folder, 'hmm_files'.
   
   1.2 Run the following script to download protein sequences from sequenced prokaryotes (including bacteria and archaea) from NCBI database. Only complete genomes are downloaded and included for downstream analysis. This funtion will generates five files in the folder, 'in_files'. The indexed protein database from all downloaded genomes is named "indexed_merged_protein.fas".
   
