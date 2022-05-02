@@ -13,9 +13,18 @@ The phosphoenolpyruvate (PEP) :carbohydrate phosphotransferase system (PTS) is m
   ```
   
 1.3 Perform the hmmsearch function for each hmm file by running the follow command. It will generate a ready-to-process output for each hmm query, which is located in the directory, './hmm_out/hmm_raw'.
+
+  ```ruby
+  sh batch_hmmsearch.sh -q ./hmm_files -o ./hmm_out/hmm_raw -d ./in_files/indexed_merged_protein.faa
+  ```
+  
   
 1.4 Optional: Download processed_out outputs to your local computer if you run genome mining on a server. 
   
 **Step 2 Data processing using R scripts**
-  2.1 T
+  2.1 Download this R folder and set your R working directory to this folder. 
+  
+  2.2 Transfer hmm outputs that are postfixed with processed_out to the folder, tbl_processed.
+  
+  
 
