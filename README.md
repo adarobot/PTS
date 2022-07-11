@@ -4,9 +4,9 @@ The phosphoenolpyruvate (PEP) :carbohydrate phosphotransferase system (PTS) is m
 **Citation:**
 Functional and structural diversification of incomplete phosphotransferase system and associated components in cellulose degrading Clostridia.
 
-Requirement:
-NCBI blast
-HMMER v3.3
+**Requirement**
+  - NCBI blast
+  - HMMER v3.3
 
 **Step 1 Genome mining using Ubuntu/linux scripts**
 
