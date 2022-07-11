@@ -2,8 +2,11 @@
 The phosphoenolpyruvate (PEP) :carbohydrate phosphotransferase system (PTS) is mainly involved in the uptake of carbohydrates and regulation of microbial metabolism. Here we performed genome mining for PTS relevant components in sequenced prokaryotic genomes. The number of homologs in each genome was examined by hmm search (E<0.01) against the in-house protein database, and then grouped into two categories based on protein architecture, including singular or modulary/fused forms. Counts of each architecture-specific homolog in each genome, along with corresponding genome identification and taxonomic information, were summarized in a single master file for visualization and additional analyses.<br/>
 
 **Citation:**
-Functional diversification and structural basis of incomplete phosphotransferase system and associated components in cellulose degrading Clostridia. XXX
+Functional and structural diversification of incomplete phosphotransferase system and associated components in cellulose degrading Clostridia.
 
+Requirement:
+NCBI blast
+HMMER v3.3
 
 **Step 1 Genome mining using Ubuntu/linux scripts**
 
