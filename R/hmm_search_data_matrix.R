@@ -126,3 +126,19 @@ outall<-merge(hmm,bacteria_archaea[,c("strain_id","taxid","organism_name","name_
 outall<-merge(outall,lineage,by="name_id",all.x = TRUE)
 write.csv(outall,file = "./output/data_matrix_id_lineage.csv")
 
+####################################################################
+####################################################################
+####################################################################
+#calculation of shannon index for each PTS configuration
+####################################################################
+####################################################################
+####################################################################
+library("vegan")
+alldata= read.csv("./output/data_matrix_id_lineage_hmm_ordered.csv",header = TRUE)   #importthe PTS configuration data                           
+shannon_input<-alldata[,3:48]  ####selection PTS configuration data per genome
+dim(shannon_input)
+alldata$shannon_H<-diversity(shannon_input)    #calculation of shannon index                            
+                                
+                                
+                                
+                                
