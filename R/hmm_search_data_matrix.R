@@ -134,11 +134,26 @@ write.csv(outall,file = "./output/data_matrix_id_lineage.csv")
 ####################################################################
 ####################################################################
 library("vegan")
+library("ggstance")
+library("dplyr")
+                                
+reduce2level="class"
 alldata= read.csv("./output/data_matrix_id_lineage_hmm_ordered.csv",header = TRUE)   #importthe PTS configuration data                           
 shannon_input<-alldata[,3:48]  ####selection PTS configuration data per genome
 dim(shannon_input)
 alldata$shannon_H<-diversity(shannon_input)    #calculation of shannon index                            
+shannon_data<-alldata[,72:84]
+#head(shannon_data,30)
+#colnames(shannon_data)
+shannon_data<-shannon_data[,c(reduce2level,"shannon_H")]
+head(shannon_data,5)
+shannon_data<-filter(shannon_data,class %in% row.names(heatmap_data))
+colnames(shannon_data)<-c("label","Shannon_index") 
                                 
+ggplot(shannon_data, aes(x=Shannon_index,y=label)) + 
+  scale_x_continuous(position = 'top')+
+  geom_boxplot(outlier.shape =NA)+
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),panel.background = element_blank(), axis.line = element_line(colour = "black"))
                                 
                                 
                                 
